@@ -1,0 +1,16 @@
+.widget{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px; /* Vous pouvez ajuster ce chiffre pour changer le degré de l'arrondi */
+    border: 2px solid gray; /* Couleur de contour grise */
+}
+
+.weatherimg {
+    margin-left: 50px;
+    margin-top: 8px;
+    height: 230px; /* 80% de la hauteur de la div parente */
+    width: auto; /* La largeur s'ajuste automatiquement pour maintenir le ratio carré */
+    max-width: 100%; /* L'image ne dépassera pas la largeur de la div parente */
+    display: block; /* Évite un espace supplémentaire en dessous de l'image */
+}
+
